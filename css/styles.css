@@ -100,8 +100,8 @@ body{
 
 .icono{
   position:absolute; 
-  left: 25%;
-  top: 25%;
+  left: 50%;
+  top: 50%;
   font-size:3.6rem; 
   z-index:2;
   animation:flotar 2.6s ease-in-out infinite;
@@ -109,10 +109,10 @@ body{
 
 @keyframes flotar{
   0%,100%{
-    transform:translateY(0) rotate(-4deg)
+    transform:translate(-50%,-50%) translateY(0) rotate(-4deg)
   }
   50%{
-    transform:translateY(-12px) 
+    transform:translate(-50%,-50%) translateY(-12px) 
     rotate(4deg)
   }
 }
