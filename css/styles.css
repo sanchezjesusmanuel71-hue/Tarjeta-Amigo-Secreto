@@ -99,7 +99,9 @@ body{
 
 
 .icono{
-  position:relative; 
+  position:absolute; 
+  left: 25%;
+  top: 25%;
   font-size:3.6rem; 
   z-index:2;
   animation:flotar 2.6s ease-in-out infinite;
