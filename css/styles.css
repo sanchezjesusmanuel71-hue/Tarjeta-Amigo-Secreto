@@ -87,7 +87,7 @@ body{
   position:relative; 
   width:120px; 
   height:120px; 
-  margin:10px auto 22px
+  margin:10px auto 22px;
 }
 
 .icono-brillo{
@@ -98,10 +98,10 @@ body{
 }
 
 
-.icono{
-  position:absolute; 
-  left: 50%;
-  top: 50%;
+.icono{ 
+  position: absolute;
+  left:50%;
+  top:50%;
   font-size:3.6rem; 
   z-index:2;
   animation:flotar 2.6s ease-in-out infinite;
@@ -170,10 +170,6 @@ body{
 
 #abrir:checked ~ label .caja-envoltorio{
   animation:none
-}
-
-.caja-envoltorio, label{
-  -webkit-tap-highlight-color: transparent;
 }
 
 @keyframes invitar{
@@ -255,6 +251,7 @@ body{
 
 .contenido{
   position:absolute; 
+  width: 300px;
   top:-50px;
   left:50%;
   transform:translateX(-50%) translateY(14px) scale(.9);
@@ -283,6 +280,12 @@ body{
   -webkit-background-clip:text; 
   background-clip:text; 
   color:transparent;
+}
+
+.contenido p{
+
+  font-size:15px;
+
 }
 
 
