@@ -172,6 +172,10 @@ body{
   animation:none
 }
 
+.caja-envoltorio, label{
+  -webkit-tap-highlight-color: transparent;
+}
+
 @keyframes invitar{
   0%,100%{
     transform:translateY(0) rotate(0deg)
